@@ -1,0 +1,355 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║          🍎 macOS HACKINTOSH INSTALLER FOR WINDOWS - QUICK START 🍎           ║
+║                                                                               ║
+║                              AUTOMATED INSTALLER                              ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+Welcome! This tool will automate the installation of macOS on your Windows computer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ SUPER QUICK START (Absolute Beginner)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Backup all your data first!
+2. Right-click: Start-macOS-Installer.bat
+3. Select: "Run as administrator"
+4. Click YES to all prompts
+5. Follow the menu options in order
+6. Wait 2-4 hours while system installs
+7. Enjoy macOS! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ PRE-INSTALLATION CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐ Windows 10 or 11 is installed
+☐ You have administrator access
+☐ 150 GB or more free disk space
+☐ USB drive 16 GB or larger (USB 3.0 preferred)
+☐ Internet connection (10 GB download required)
+☐ 2-4 hours of time available
+☐ All important data backed up externally
+☐ Python installed (auto-check on first run)
+
+If all checked, you're ready to start!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 THREE WAYS TO START
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 1: EASIEST (Recommended for first-timers)
+────────────────────────────────────────────────
+1. Double-click or right-click → "Run as administrator"
+   📁 Start-macOS-Installer.bat
+
+2. Select menu options in order:
+   ✓ Option 1: Validate System
+   ✓ Option 2: Download OpenCore
+   ✓ Option 3: Run OpenCore Simplify
+   ✓ Options 4-6: Download Tools
+   ✓ Options 7-12: Installation Guides
+   ✓ Option 13: Get Help if Needed
+   ✓ Option 15: Exit
+
+3. Done! Your system will boot macOS after restart
+
+───────────────────────────────────────────────────
+
+METHOD 2: INTERACTIVE MENU
+──────────────────────────
+1. Open Command Prompt as Administrator
+2. Paste command:
+   python macOS-Installer.py
+3. Select options from menu
+4. Follow on-screen instructions
+
+───────────────────────────────────────────────────
+
+METHOD 3: FULLY AUTOMATIC (Hands-off)
+─────────────────────────────────────
+1. Open Command Prompt as Administrator
+2. Paste command:
+   python macOS-Installer.py --auto
+3. Walk away for 3-4 hours
+4. Return to completed installation
+
+───────────────────────────────────────────────────
+
+METHOD 4: VALIDATE FIRST (Safety check)
+──────────────────────────────────────
+1. Open Command Prompt as Administrator
+2. Paste command:
+   python macOS-Installer.py --validate
+3. Fix any reported issues
+4. Then use Method 1, 2, or 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION FILES (Open in Notepad or VSCode)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FILE_MANIFEST.md
+  → Overview of all included files
+  → Reading order recommendations
+  → Quick start reference
+  [Read this first!]
+
+README.md
+  → Complete installation guide
+  → Step-by-step instructions
+  → Hardware requirements
+  → Troubleshooting basics
+  [Read before starting]
+
+QUICK_REFERENCE.md
+  → Quick lookup tables
+  → Menu options at a glance
+  → Common commands
+  [Keep open during installation]
+
+INSTALLATION_SUMMARY.md
+  → Installation overview
+  → Phase breakdown
+  → Timeline expectations
+  [Read for process understanding]
+
+TROUBLESHOOTING_GUIDE.md
+  → Solutions for 15+ common issues
+  → Emergency procedures
+  → When to ask for help
+  [Use if you encounter problems]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 TYPICAL INSTALLATION TIMELINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Phase                          Time     What You Do
+────────────────────────────────────────────────────────────────────────────
+System Validation              1 min    Watch automated checks
+OpenCore Setup                 10 min   Watch automated setup
+Tool Downloads                 5 min    Watch downloads complete
+macOS Recovery Download        20-30 min Watch large download progress
+USB Preparation                10 min   Follow on-screen guide
+Disk Partitioning              10 min   Use Windows Disk Management
+BIOS Configuration             5 min    Enter BIOS and change settings
+macOS Installation             60-90 min System reboots automatically
+Post-Installation              15 min   Copy files on internal drive
+
+TOTAL TIME: 2-4 HOURS (mostly automatic!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ IMPORTANT WARNINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 BACK UP YOUR DATA FIRST!
+    This process modifies your disk. Backup everything to:
+    → External hard drive
+    → Cloud storage (OneDrive, Google Drive, etc.)
+    → Another computer
+
+🔴 DATA LOSS RISK
+    Disk partitioning CAN erase data if done incorrectly.
+    This tool will guide you, but mistakes are YOUR responsibility.
+
+🔴 APPLE EULA
+    Installing macOS on non-Apple hardware may violate Apple's terms.
+    This is for educational purposes only.
+
+🔴 HARDWARE COMPATIBILITY
+    Not all computers work equally well.
+    Check: https://dortania.github.io/OpenCore-Install-Guide/
+    Search your CPU model, GPU model, motherboard model.
+
+🔴 TIME COMMITMENT
+    This takes 2-4 hours. Plan your schedule accordingly.
+    Don't do this if you need your computer in the next 4 hours!
+
+🔴 BIOS CHANGES
+    You'll need to enter BIOS and disable Secure Boot.
+    Don't panic - it's reversible!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you get stuck:
+
+1. Check TROUBLESHOOTING_GUIDE.md (15+ solutions included)
+
+2. Check the installation log:
+   → Run: python macOS-Installer.py
+   → Select Option 14 (View Installation Log)
+
+3. Search online communities:
+   → Reddit: https://www.reddit.com/r/hackintosh/
+   → GitHub: https://github.com/acidanthera/OpenCorePkg
+
+4. Visit the official guide:
+   → https://dortania.github.io/OpenCore-Install-Guide/
+
+5. Don't panic! Most issues are fixable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 REQUIRED HARDWARE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MUST HAVE:
+✓ Intel or AMD processor (check Dortania list)
+✓ 150 GB free disk space
+✓ 16 GB USB drive
+✓ 8 GB RAM minimum (16 GB recommended)
+✓ Graphics card (dedicated or integrated)
+
+NICE TO HAVE:
+• USB 3.0 drive (faster)
+• SSD (recommended)
+• Ethernet cable (helpful for setup)
+• Motherboard manual
+
+CHECK COMPATIBILITY:
+→ Dortania: https://dortania.github.io/OpenCore-Install-Guide/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 READY? LET'S GO!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Choose your starting method:
+
+👉 OPTION A: Right-click "Start-macOS-Installer.bat" → "Run as admin"
+            (This is the easiest!)
+
+👉 OPTION B: Open Command Prompt as Admin
+            Type: python macOS-Installer.py
+
+👉 OPTION C: Open Command Prompt as Admin
+            Type: python macOS-Installer.py --auto
+
+👉 OPTION D: Open PowerShell as Admin
+            Type: .\macOS-Installer.ps1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 BEFORE YOU START - FINAL CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ☐ Backed up all important data
+2. ☐ Verified 150 GB free space (right-click Drive → Properties)
+3. ☐ Confirmed hardware compatibility (Dortania guide)
+4. ☐ Prepared 16 GB USB drive
+5. ☐ Python installed (test: open Command Prompt, type "python --version")
+6. ☐ Have 2-4 hours available
+7. ☐ Read this entire file
+8. ☐ Read README.md or QUICK_REFERENCE.md
+
+All checked? Great! You're ready to start!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ WHAT HAPPENS AFTER INSTALLATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When you restart your computer, you'll see OpenCore Boot Menu:
+
+    > macOS (will boot here by default)
+      Windows 11
+      UEFI Shell
+      Reset NVRAM
+
+• Use arrow keys to select
+• Press Enter to boot
+• Your computer can run both macOS and Windows!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 LEARNING RESOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Want to understand what's happening? Check out:
+
+• Dortania OpenCore Guide
+  https://dortania.github.io/OpenCore-Install-Guide/
+  ↳ The definitive resource for Hackintosh
+
+• OpenCore Official Docs
+  https://github.com/acidanthera/OpenCorePkg
+  ↳ Technical documentation
+
+• Reddit r/hackintosh
+  https://www.reddit.com/r/hackintosh/
+  ↳ Active community for support
+
+• This Tool's Documentation
+  → README.md (complete guide)
+  → TROUBLESHOOTING_GUIDE.md (problem solving)
+  → QUICK_REFERENCE.md (quick lookup)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⭐ KEY FACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ This tool is OPEN SOURCE (inspect the code!)
+✓ It's SAFE (doesn't modify Windows, just adds macOS)
+✓ It's AUTOMATED (handles most steps for you)
+✓ It's REVERSIBLE (you can boot Windows anytime)
+✓ COMMUNITY SUPPORTED (help available online)
+
+⚠ It requires PATIENCE (wait for downloads/installation)
+⚠ It requires ATTENTION (steps need your confirmation)
+⚠ It requires BACKUPS (data safety is YOUR responsibility)
+⚠ It voids APPLE WARRANTY (but you don't own Apple hardware)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 PRO TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Read QUICK_REFERENCE.md while installation runs
+   → Answers will be there before you need them
+
+2. Don't move USB during installation
+   → Keep it plugged in and still
+
+3. Don't worry about multiple restarts
+   → System will restart 3-4 times (normal!)
+   → Each restart continues the installation
+
+4. Take screenshots if issues occur
+   → Share on r/hackintosh for help
+
+5. Keep motherboard manual nearby
+   → BIOS access key varies (Del/F2/F10/F12)
+
+6. Use Ethernet during setup if possible
+   → Wi-Fi setup can come later
+
+7. Don't unplug USB until told to
+   → Installation needs the USB for multiple phases
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 YOU'RE READY!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Now choose your path:
+
+👉 EASIEST: Double-click Start-macOS-Installer.bat
+👉 NORMAL: python macOS-Installer.py
+👉 AUTO: python macOS-Installer.py --auto
+👉 SAFE: python macOS-Installer.py --validate
+
+Questions? Check the documentation files or TROUBLESHOOTING_GUIDE.md
+
+Ready to install macOS? Let's go! 🚀🍎
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
