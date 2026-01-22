@@ -29,19 +29,19 @@ A comprehensive terminal-based automation tool to guide and automate the install
 
 ### Option 1: Automated Installation (Recommended)
 ```powershell
-cd "C:\Users\alias\Downloads\Mac Os"
+cd "C:\Users\User\Downloads\Mac Os"
 python macOS-Installer.py --auto
 ```
 
 ### Option 2: Interactive Menu
 ```powershell
-cd "C:\Users\alias\Downloads\Mac Os"
+cd "C:\Users\User\Downloads\Mac Os"
 python macOS-Installer.py
 ```
 
 ### Option 3: System Validation Only
 ```powershell
-cd "C:\Users\alias\Downloads\Mac Os"
+cd "C:\Users\User\Downloads\Mac Os"
 python macOS-Installer.py --validate
 ```
 
@@ -341,3 +341,4 @@ This tool is provided as-is for educational purposes. Users assume all responsib
 ---
 
 **Made for enthusiasts. Use at your own risk. Happy Hackintoshing! 🍎**
+
